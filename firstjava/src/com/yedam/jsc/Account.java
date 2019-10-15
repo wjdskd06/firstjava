@@ -20,7 +20,7 @@ public class Account {
 	//Ãâ±Ý(withdraw)
 	//ÀÜ¾×(checkbalance)
 	
-	void deposit(int money) {
+	void deposit(String accountNO, int money) {
 		this.balance = this.balance + money;
 	}
 	
